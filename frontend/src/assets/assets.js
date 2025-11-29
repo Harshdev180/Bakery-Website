@@ -1,7 +1,7 @@
-import chef1 from './images/chef.jpeg';
-import chef2 from './images/chef2.jpeg';
-import chef3 from './images/chef3.jpg';
-import chef4 from './images/chef4.jpg';
+import chef1 from './about/chef.jpeg';
+import chef2 from './about/chef2.jpeg';
+import chef3 from './about/chef3.jpg';
+import chef4 from './about/chef4.jpg';
 
 // this card is showcase chef image and some description along with opening hours
 export const card = [

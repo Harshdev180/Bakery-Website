@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title'
-import bread from '../../assets/images/bread.png'
+import bread from '../../assets/about/bread.png'
 import { benefitBreadPoints } from '../../assets/assets'
 
 const BenefitBread = () => {
