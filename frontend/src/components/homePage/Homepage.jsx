@@ -26,9 +26,9 @@ const Homepage = () => {
                             transition={{ duration: 1, ease: "easeOut" }}
                             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#c85a32] leading-tight drop-shadow-lg"
                         >
-                            Bring You Happiness
+                            Bringing You Happiness
                             <br className="hidden md:block" />
-                            Through a Piece of Cake
+                            Through a Piece of Cake, <br />
                             <span className="text-[#b75a90]"> Delivered Daily!</span>
                         </motion.h1>
 
@@ -47,7 +47,7 @@ const Homepage = () => {
                             <motion.div
                                 initial={{ opacity: 0, y: -40 }}
                                 whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 1, ease: "easeOut" }} className="md:flex items-center gap-3">
+                                transition={{ duration: 1, ease: "easeOut" }} className="flex flex-row sm:flex-row items-center gap-3">
                                 <Link to="/order">
                                     <button
                                         className="px-6 py-2 rounded-full bg-gradient-to-r from-[#dda56a] to-[#e8b381] 

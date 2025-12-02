@@ -149,7 +149,7 @@ const Footer = () => {
             </div>
 
             {/* Bottom Bar */}
-            <div className="mt-10 py-4 bg-[#F9FBFB] backdrop-blur-md">
+            <div className="mt-10 py-4 bg-[#fff9f4] backdrop-blur-md">
                 <p className="text-center text-sm text-[#4a3f35] font-semibold">
                     © 2025 <span className="font-semibold text-[#6f482a]">Graphura India Private Limited</span> — All Rights Reserved.
                 </p>
